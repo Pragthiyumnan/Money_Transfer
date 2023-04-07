@@ -1,4 +1,4 @@
-import icon from '../icon.png';
+import logo from '../logo.png';
 
 let HomeNav = () => {
 
@@ -23,8 +23,8 @@ let HomeNav = () => {
     currency: "EUR",
     locale: "pt-PT", // de-DE
   };
-  
-  const account2 = {
+    
+    const account2 = {
     owner: "Jessica Davis",
     movements: [5000, 3400, -150, -790, -3210, -1000, 8500, -30],
     interestRate: 1.5,
@@ -349,7 +349,7 @@ let HomeNav = () => {
    <div>
     <nav>
         <p class="welcome">Log in to get started</p>
-        <img src={icon} class="logo" alt="" />
+        <img src={logo} class="logo" alt="" />
         <form class="login">
           <input
             type="text"
