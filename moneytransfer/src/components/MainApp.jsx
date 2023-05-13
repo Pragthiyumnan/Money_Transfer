@@ -1,4 +1,4 @@
-import icon from '../icon.png';
+import logo from '../logo.png';
 
 let HomeNav = () => {
 
@@ -349,7 +349,7 @@ let HomeNav = () => {
    <div>
     <nav>
         <p class="welcome">Log in to get started</p>
-        <img src={icon} class="logo" alt="" />
+        <img src={logo} class="logo" alt="" />
         <form class="login">
           <input
             type="text"
